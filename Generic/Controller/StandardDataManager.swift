@@ -8,7 +8,7 @@
 
 import Foundation
 
-public class StandardDataManager<T>: DataManager {
+open class StandardDataManager<T>: DataManager {
 
     public typealias DataType = T
 

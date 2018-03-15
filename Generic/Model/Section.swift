@@ -7,9 +7,16 @@
 //
 
 public class Section<T> {
+
+    var name: String = ""
     var rows: [T]
 
     public init(rows: [T]) {
+        self.rows = rows
+    }
+
+    public init(name: String, rows: [T]) {
+        self.name = name
         self.rows = rows
     }
 }

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B90C0B3E205AB56000343254 /* DictinaryDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90C0B3D205AB56000343254 /* DictinaryDecoder.swift */; };
+		B90C0B40205AB60200343254 /* PlistSectionDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90C0B3F205AB60200343254 /* PlistSectionDataManager.swift */; };
+		B9721F0F20591E3B0055DA47 /* PlistDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9721F0E20591E3B0055DA47 /* PlistDataManager.swift */; };
 		B9F5E25F2052BE8A00C9CD88 /* Generic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9F5E2552052BE8900C9CD88 /* Generic.framework */; };
 		B9F5E2642052BE8A00C9CD88 /* GenericTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F5E2632052BE8A00C9CD88 /* GenericTests.swift */; };
 		B9F5E2662052BE8A00C9CD88 /* Generic.h in Headers */ = {isa = PBXBuildFile; fileRef = B9F5E2582052BE8900C9CD88 /* Generic.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -33,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B90C0B3D205AB56000343254 /* DictinaryDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictinaryDecoder.swift; sourceTree = "<group>"; };
+		B90C0B3F205AB60200343254 /* PlistSectionDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlistSectionDataManager.swift; sourceTree = "<group>"; };
+		B9721F0E20591E3B0055DA47 /* PlistDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlistDataManager.swift; sourceTree = "<group>"; };
 		B9F5E2552052BE8900C9CD88 /* Generic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Generic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9F5E2582052BE8900C9CD88 /* Generic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Generic.h; sourceTree = "<group>"; };
 		B9F5E2592052BE8900C9CD88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -126,6 +132,8 @@
 				B9F5E27B2052BEF300C9CD88 /* UITableView */,
 				B9F5E27A2052BEED00C9CD88 /* UICollectionView */,
 				B9F5E2782052BEE900C9CD88 /* StandardDataManager.swift */,
+				B9721F0E20591E3B0055DA47 /* PlistDataManager.swift */,
+				B90C0B3F205AB60200343254 /* PlistSectionDataManager.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -144,6 +152,7 @@
 				B9F5E2812052BF0C00C9CD88 /* Cell.swift */,
 				B9F5E2802052BF0C00C9CD88 /* DataManager.swift */,
 				B9F5E2822052BF0C00C9CD88 /* Model.swift */,
+				B90C0B3D205AB56000343254 /* DictinaryDecoder.swift */,
 			);
 			path = Protocol;
 			sourceTree = "<group>";
@@ -300,10 +309,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9F5E27D2052BEFC00C9CD88 /* CollectionDataSource.swift in Sources */,
+				B9721F0F20591E3B0055DA47 /* PlistDataManager.swift in Sources */,
+				B90C0B40205AB60200343254 /* PlistSectionDataManager.swift in Sources */,
 				B9F5E2832052BF0C00C9CD88 /* DataManager.swift in Sources */,
 				B9F5E2892052BF2A00C9CD88 /* BaseCollectionViewCell.swift in Sources */,
 				B9F5E2842052BF0C00C9CD88 /* Cell.swift in Sources */,
 				B9F5E2792052BEE900C9CD88 /* StandardDataManager.swift in Sources */,
+				B90C0B3E205AB56000343254 /* DictinaryDecoder.swift in Sources */,
 				B9F5E27F2052BF0100C9CD88 /* TableDataSource.swift in Sources */,
 				B9F5E2752052BED700C9CD88 /* Collection+SefeIndex.swift in Sources */,
 				B9F5E2772052BEDF00C9CD88 /* Section.swift in Sources */,
