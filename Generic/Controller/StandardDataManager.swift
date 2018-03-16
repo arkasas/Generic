@@ -45,4 +45,9 @@ open class StandardDataManager<T>: DataManager {
     public func append(newSections sections: [Section<T>]) {
         self.sections.append(contentsOf: sections)
     }
+
+    public func section(forSectionIndex index: Int) -> Section<T>? {
+        return sections[safe: index]
+    }
+
 }

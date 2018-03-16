@@ -28,6 +28,10 @@ open class TableDataSource<T: DataManager>: NSObject, UITableViewDataSource wher
         return populate(tableView, indexPath: indexPath)
     }
 
+    public func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        return dataManager.section(forSectionIndex: section)?.name
+    }
+
     private func populate(_ tableView: UITableView, indexPath: IndexPath) -> UITableViewCell {
         guard let model = dataManager.item(atIndexPath: indexPath) else {
             return UITableViewCell()

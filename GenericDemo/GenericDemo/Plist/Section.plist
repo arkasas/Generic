@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Menu</key>
+	<array>
+		<array>
+			<dict>
+				<key>name</key>
+				<string>One</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Two</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Three</string>
+			</dict>
+		</array>
+		<array>
+			<dict>
+				<key>name</key>
+				<string>Uno</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Dos</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Tres</string>
+			</dict>
+		</array>
+		<array>
+			<dict>
+				<key>name</key>
+				<string>Jeden</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Dwa</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Trzy</string>
+			</dict>
+		</array>
+	</array>
+</dict>
+</plist>

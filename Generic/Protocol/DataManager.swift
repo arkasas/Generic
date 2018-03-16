@@ -21,4 +21,6 @@ public protocol DataManager {
 
     func append(newSection section: Section<DataType>)
     func append(newSections sections: [Section<DataType>])
+
+    func section(forSectionIndex index: Int) -> Section<DataType>?
 }
